@@ -1,0 +1,4 @@
+﻿# Project exclude paths
+/.gradle/
+/out/
+/out/production/classes/
