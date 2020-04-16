@@ -49,4 +49,11 @@ public class Student {
         return this.getName().compareToIgnoreCase(student.getName());
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }
